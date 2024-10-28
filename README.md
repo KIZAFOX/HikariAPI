@@ -1,6 +1,6 @@
 # HikariAPI
 
-> HikariAPI is a shot API to manage connection to database.
+> HikariAPI is a short API to manage connection to database.
 
 - Name: HikariAPI
 - Type: API
@@ -18,14 +18,10 @@
   * [Table of Contents](#table-of-contents)
   * [Installation](#installation)
   * [Usage](#usage)
-      * [Basic Setup](#basic-setup)
-    * [Event Handling](#event-handling)
-    * [Command Handling](#command-handling)
+      * [Connect](#connect)
+      * [Disconnect](#disconnect)
   * [Code Examples](#code-examples)
-    * [Packets](#packets)
-        * [_Message_](#_message_)
-        * [_Title_](#_title_)
-        * [_Action Bar_](#_action-bar_)
+      * [_Boolean_](#_boolean_)
   * [Informations](#informations)
   * [License](#license)
 <!-- TOC -->
