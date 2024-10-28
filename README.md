@@ -17,6 +17,8 @@
 * [HikariAPI](#hikariapi)
   * [Table of Contents](#table-of-contents)
   * [Installation](#installation)
+    * [Option 1:](#option-1)
+    * [Option 2:](#option-2)
   * [Usage](#usage)
       * [Connect](#connect)
       * [Disconnect](#disconnect)
@@ -30,18 +32,57 @@
 
 ## Installation
 
+### Option 1:
+
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/KIZAFOX/HikariAPI.git
-   ```
+```bash
+  git clone https://github.com/KIZAFOX/HikariAPI.git
+```
 
 2. **Build the project:**
-    ```bash
-   mvn clean install
-    ```
+```bash
+  mvn clean install
+```
 
 3. **Import the .jar into your own project**
+
+
+### Option 2:
+
+#### Maven:
+
+```xml
+<repository>
+  <id>jitpack.io</id>
+  <url>https://jitpack.io</url>
+</repository>
+
+
+<dependency>
+    <groupId>com.github.KIZAFOX</groupId>
+    <artifactId>HikariAPI</artifactId>
+    <version>Tag</version>
+</dependency>
+```
+
+#### Gradle:
+
+```xml
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+	}
+}
+
+dependencies {
+    implementation 'com.github.KIZAFOX:HikariAPI:Tag'
+}
+```
+
+🚨 For the 'Tag' refer to the release page on GitHub !
 
 ## Usage
 
